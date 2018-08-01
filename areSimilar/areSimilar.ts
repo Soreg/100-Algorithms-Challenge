@@ -1,5 +1,5 @@
 function areSimilar(a: number[], b: number[]): boolean {
-   
+   return a.sort().join('') === b.sort().join('');
 }
 
 console.log(areSimilar([1, 2, 3], [1, 2, 3]));
